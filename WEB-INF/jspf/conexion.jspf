@@ -1,0 +1,9 @@
+<%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql" %>
+
+<sql:setDataSource 
+    var="empleados" 
+    driver="com.mysql.cj.jdbc.Driver" 
+    url="jdbc:mysql://bz074wcqrwtvkxnbdht4-mysql.services.clever-cloud.com:3306/bz074wcqrwtvkxnbdht4?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true" 
+    user="urxgsfw8dsastxo8" 
+    password="eTfOv210PlKNiAttGR3P"
+/>
